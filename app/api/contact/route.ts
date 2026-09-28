@@ -43,7 +43,7 @@ export async function POST(req: Request) {
 
   // 4. Deliver via Resend if configured; otherwise accept + log (form still works).
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO || "yashkatiyara22@gmail.com";
+  const to = process.env.CONTACT_TO || "Muzammilmkazi@gmail.com";
   const from = process.env.CONTACT_FROM || "Securithm <onboarding@resend.dev>";
 
   if (!apiKey) {
